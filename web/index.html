@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZombieSim</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">☣</span> ZombieSim <small>spatial epidemic simulator for real cities</small></div>
+  <div class="city">
+    <select id="preset" title="Preset cities (● = cached locally)"></select>
+    <div class="search">
+      <input id="q" type="search" placeholder="Search any city…" autocomplete="off">
+      <div id="results" class="results" hidden></div>
+    </div>
+    <label title="Half-width of the square study area">Radius <input id="radius" type="number" min="2" max="40" step="1" value="16"> km</label>
+    <label title="Simulation cell size (smaller = more detail, slower)">Cell <select id="cell">
+      <option>250</option><option>300</option><option selected>400</option><option>500</option><option>600</option><option>750</option><option>1000</option>
+    </select> m</label>
+    <label title="Which OpenStreetMap road classes to load">Roads <select id="roads"><option value="major" selected>major</option><option value="all">all (incl. residential)</option></select></label>
+    <button id="load" class="primary">Load city</button>
+    <span id="status" class="status"></span>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="controls" id="controls">
+    <div class="scen">
+      <label>Scenario <select id="scenario"></select></label>
+      <button id="resetParams" class="ghost" title="Restore default parameters">Defaults</button>
+    </div>
+    <div id="paramGroups"></div>
+  </aside>
+
+  <section class="center">
+    <div class="toolbar">
+      <button id="run" class="primary" disabled>▶ Run</button>
+      <button id="step" disabled title="Advance one simulated hour">+1 h</button>
+      <button id="reset" disabled title="Re-seed and restart with the current parameters">↺ Reset</button>
+      <label>Speed <select id="speed">
+        <option value="2">2 h/s</option><option value="6">6 h/s</option><option value="12">12 h/s</option><option value="24" selected>1 day/s</option><option value="72">3 days/s</option><option value="Infinity">max</option>
+      </select></label>
+      <label>Layer <select id="layer"></select></label>
+      <label class="chk"><input type="checkbox" id="showRoads" checked> roads</label>
+      <label class="chk"><input type="checkbox" id="showLabels" checked> labels</label>
+      <button id="fit" class="ghost" title="Zoom to the whole study area">⤢</button>
+      <div class="clock" id="clock">—</div>
+    </div>
+    <div class="mapwrap">
+      <canvas id="map"></canvas>
+      <div id="tooltip" class="tooltip" hidden></div>
+      <div id="hint" class="hint">Pick a city and press <b>Load city</b>. Data is downloaded once, then cached on disk.</div>
+      <div class="kpis" id="kpis"></div>
+    </div>
+    <div class="chartwrap">
+      <div class="charthead"><div id="legend" class="legend"></div><label class="chk"><input type="checkbox" id="logY" checked> log scale</label></div>
+      <div class="chartbox"><canvas id="chart"></canvas></div>
+    </div>
+  </section>
+
+  <aside class="side">
+    <nav class="tabs" id="tabs">
+      <button data-tab="report" class="on">Report</button>
+      <button data-tab="theory">Theory</button>
+      <button data-tab="ensemble">Ensemble</button>
+      <button data-tab="methods">Model</button>
+      <button data-tab="data">Data</button>
+    </nav>
+    <div class="tab on" id="tab-report">
+      <div class="tabtools"><button id="refreshReport">Update report</button><button id="copyReport" class="ghost">Copy text</button></div>
+      <div id="report" class="report"><p class="muted">Load a city and run the simulation. A written report is generated automatically when the run ends; press "Update report" for one mid-run.</p></div>
+    </div>
+    <div class="tab" id="tab-theory"><div id="theory" class="report"><p class="muted">Load a city to evaluate the analytical results for its density profile.</p></div></div>
+    <div class="tab" id="tab-ensemble">
+      <div class="tabtools"><button id="runEnsemble" disabled>Run ensemble</button><button id="stopEnsemble" class="ghost" disabled>Stop</button><span id="ensStatus" class="muted"></span></div>
+      <p class="muted small">Independent stochastic replicates with the current parameters and different seeds, run in parallel on all CPU cores. With a random patient-zero location, the location varies too.</p>
+      <div class="chartbox tall"><canvas id="ensChart"></canvas></div>
+      <div id="ensLegend" class="legend"></div>
+      <div id="ensTable" class="report"></div>
+    </div>
+    <div class="tab" id="tab-methods"><div class="report methods" id="methods"></div></div>
+    <div class="tab" id="tab-data"><div class="report" id="dataInfo"><p class="muted">No city loaded.</p></div></div>
+  </aside>
+</main>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
