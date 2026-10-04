@@ -1,0 +1,1904 @@
+<VRTDataset rasterXSize="1295354" rasterYSize="458338">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.8000041666666667e+02,  2.7777777777800118e-04,  0.0000000000000000e+00,  7.1330694444444433e+01,  0.0000000000000000e+00, -2.7777777777800118e-04</GeoTransform>
+  <VRTRasterBand dataType="Float64" band="1">
+    <NoDataValue>nan</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_160_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33472" RasterYSize="19200" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33472" ySize="19200" />
+      <DstRect xOff="1226521" yOff="221140" xSize="33472" ySize="19200" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-30_lon_-150_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32256" RasterYSize="25856" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32256" ySize="25856" />
+      <DstRect xOff="109687" yOff="330395" xSize="32256" ySize="25856" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_-10_general-v1.5.6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="35840" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="35840" />
+      <DstRect xOff="611985" yOff="184964" xSize="36032" ySize="35840" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-40_lon_10_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="17408" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="17408" />
+      <DstRect xOff="709777" yOff="364787" xSize="10240" ySize="17408" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_-70_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34240" RasterYSize="34752" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34240" ySize="34752" />
+      <DstRect xOff="395974" yOff="185911" xSize="34240" ySize="34752" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_-50_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="467985" yOff="292775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_-70_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="11008" RasterYSize="22400" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="11008" ySize="22400" />
+      <DstRect xOff="395987" yOff="85927" xSize="11008" ySize="22400" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_70_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="899985" yOff="76775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-50_lon_-70_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28160" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28160" ySize="36032" />
+      <DstRect xOff="395996" yOff="400775" xSize="28160" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_60_lon_0_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="19264" RasterYSize="14656" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="19264" ySize="14656" />
+      <DstRect xOff="664753" yOff="26159" xSize="19264" ySize="14656" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_50_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34624" RasterYSize="35648" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34624" ySize="35648" />
+      <DstRect xOff="827985" yOff="293168" xSize="34624" ySize="35648" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_10_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683985" yOff="112775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_80_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="935985" yOff="148775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_10_general-v1.5.7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30016" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30016" ySize="36032" />
+      <DstRect xOff="690001" yOff="292775" xSize="30016" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_110_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35648" RasterYSize="26496" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35648" ySize="26496" />
+      <DstRect xOff="1043987" yOff="76775" xSize="35648" ySize="26496" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_-80_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29440" RasterYSize="26176" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29440" ySize="26176" />
+      <DstRect xOff="362501" yOff="158633" xSize="29440" ySize="26176" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_40_general-v1.5.6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28608" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28608" ySize="36032" />
+      <DstRect xOff="791998" yOff="220776" xSize="28608" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_-60_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="431985" yOff="292775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-10_lon_-180_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2176" RasterYSize="6336" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2176" ySize="6336" />
+      <DstRect xOff="27991" yOff="266746" xSize="2176" ySize="6336" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_140_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5248" RasterYSize="17664" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="5248" ySize="17664" />
+      <DstRect xOff="1168604" yOff="191504" xSize="5248" ySize="17664" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_90_general-v1.5.6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="33984" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="33984" />
+      <DstRect xOff="971985" yOff="150826" xSize="36032" ySize="33984" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_-10_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="20352" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="20352" />
+      <DstRect xOff="611985" yOff="220774" xSize="36032" ySize="20352" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_50_lon_0_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="647986" yOff="40774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_70_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="26304" RasterYSize="35328" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="26304" ySize="35328" />
+      <DstRect xOff="909715" yOff="220778" xSize="26304" ySize="35328" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_10_general-v1.5.9.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683985" yOff="220775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_20_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="35776" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="35776" />
+      <DstRect xOff="719990" yOff="148772" xSize="36032" ySize="35776" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_60_lon_-20_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="23424" RasterYSize="11392" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="23424" ySize="11392" />
+      <DstRect xOff="575984" yOff="17195" xSize="23424" ySize="11392" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_70_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20736" RasterYSize="3584" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20736" ySize="3584" />
+      <DstRect xOff="83526" yOff="0" xSize="20736" ySize="3584" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_70_lon_-170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="64" RasterYSize="64" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="64" ySize="64" />
+      <DstRect xOff="71863" yOff="2457" xSize="64" ySize="64" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-50_lon_170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31744" RasterYSize="35008" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31744" ySize="35008" />
+      <DstRect xOff="1260000" yOff="400770" xSize="31744" ySize="35008" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_-100_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="33792" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="33792" />
+      <DstRect xOff="287985" yOff="79018" xSize="36032" ySize="33792" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_70_lon_20_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35840" RasterYSize="3968" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35840" ySize="3968" />
+      <DstRect xOff="720150" yOff="823" xSize="35840" ySize="3968" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_10_general-v1.5.7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683985" yOff="256775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_150_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34752" RasterYSize="28480" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34752" ySize="28480" />
+      <DstRect xOff="1188427" yOff="224440" xSize="34752" ySize="28480" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_60_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35968" RasterYSize="19584" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35968" ySize="19584" />
+      <DstRect xOff="864046" yOff="57236" xSize="35968" ySize="19584" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_10_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4544" RasterYSize="3968" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4544" ySize="3968" />
+      <DstRect xOff="86160" yOff="184765" xSize="4544" ySize="3968" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_0_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="647987" yOff="148772" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_40_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="791985" yOff="148775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_10_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="24384" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="24384" ySize="36032" />
+      <DstRect xOff="695641" yOff="328775" xSize="24384" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_120_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21888" RasterYSize="34496" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="21888" ySize="34496" />
+      <DstRect xOff="1080000" yOff="186315" xSize="21888" ySize="34496" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-40_lon_-180_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="960" RasterYSize="3008" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="960" ySize="3008" />
+      <DstRect xOff="4231" yOff="366687" xSize="960" ySize="3008" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_20_lon_-100_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="287985" yOff="148774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_50_lon_30_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10048" RasterYSize="16576" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10048" ySize="16576" />
+      <DstRect xOff="755984" yOff="55622" xSize="10048" ySize="16576" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-20_lon_-170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="960" RasterYSize="320" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="960" ySize="320" />
+      <DstRect xOff="37140" yOff="307759" xSize="960" ySize="320" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_140_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20992" RasterYSize="19904" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20992" ySize="19904" />
+      <DstRect xOff="1151976" yOff="92897" xSize="20992" ySize="19904" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_30_general-v1.5.8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="755985" yOff="292775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_100_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25728" RasterYSize="6336" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25728" ySize="6336" />
+      <DstRect xOff="1007985" yOff="70458" xSize="25728" ySize="6336" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_160_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28224" RasterYSize="6080" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28224" ySize="6080" />
+      <DstRect xOff="1231753" yOff="214627" xSize="28224" ySize="6080" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_60_lon_-150_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35904" RasterYSize="34752" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35904" ySize="34752" />
+      <DstRect xOff="107984" yOff="6040" xSize="35904" ySize="34752" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_30_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20224" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20224" ySize="36032" />
+      <DstRect xOff="755973" yOff="328775" xSize="20224" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-30_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5440" RasterYSize="832" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="5440" ySize="832" />
+      <DstRect xOff="97824" yOff="337544" xSize="5440" ySize="832" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_130_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="35200" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="35200" />
+      <DstRect xOff="1115986" yOff="112778" xSize="36032" ySize="35200" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_30_general-v1.5.7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="28160" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="28160" />
+      <DstRect xOff="755985" yOff="192641" xSize="36032" ySize="28160" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_-100_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4736" RasterYSize="3904" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4736" ySize="3904" />
+      <DstRect xOff="318473" yOff="257641" xSize="4736" ySize="3904" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_160_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34368" RasterYSize="34048" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34368" ySize="34048" />
+      <DstRect xOff="1223994" yOff="258570" xSize="34368" ySize="34048" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-110_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="251985" yOff="112774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_100_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="1007985" yOff="220775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_-60_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="30272" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="30272" />
+      <DstRect xOff="431984" yOff="226534" xSize="36032" ySize="30272" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_-70_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="395985" yOff="256778" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_-10_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34304" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34304" ySize="36032" />
+      <DstRect xOff="613721" yOff="112775" xSize="34304" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-20_lon_-140_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10560" RasterYSize="32256" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10560" ySize="32256" />
+      <DstRect xOff="146791" yOff="294352" xSize="10560" ySize="32256" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_-70_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="395985" yOff="328775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-40_lon_-60_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35584" RasterYSize="31872" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35584" ySize="31872" />
+      <DstRect xOff="431974" yOff="364790" xSize="35584" ySize="31872" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_40_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="35840" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="35840" />
+      <DstRect xOff="791985" yOff="292982" xSize="36032" ySize="35840" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_40_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9728" RasterYSize="4352" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="9728" ySize="4352" />
+      <DstRect xOff="818277" yOff="72440" xSize="9728" ySize="4352" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_90_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33984" RasterYSize="7744" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33984" ySize="7744" />
+      <DstRect xOff="974033" yOff="69072" xSize="33984" ySize="7744" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-60_lon_-70_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="22336" RasterYSize="21568" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="22336" ySize="21568" />
+      <DstRect xOff="395998" yOff="436770" xSize="22336" ySize="21568" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_130_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="30272" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="30272" />
+      <DstRect xOff="1115985" yOff="256835" xSize="36032" ySize="30272" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_170_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="64" RasterYSize="128" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="64" ySize="128" />
+      <DstRect xOff="1263092" yOff="219719" xSize="64" ySize="128" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-60_lon_-80_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="19712" RasterYSize="19520" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="19712" ySize="19520" />
+      <DstRect xOff="376307" yOff="436778" xSize="19712" ySize="19520" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_50_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35456" RasterYSize="28800" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35456" ySize="28800" />
+      <DstRect xOff="827972" yOff="156001" xSize="35456" ySize="28800" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_-180_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34048" RasterYSize="32128" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34048" ySize="32128" />
+      <DstRect xOff="0" yOff="296561" xSize="34048" ySize="32128" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_-90_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="29760" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="29760" />
+      <DstRect xOff="323985" yOff="83038" xSize="36032" ySize="29760" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_-150_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35712" RasterYSize="2112" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35712" ySize="2112" />
+      <DstRect xOff="108285" yOff="40761" xSize="35712" ySize="2112" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_-50_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="467985" yOff="256781" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_10_lon_-110_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="19840" RasterYSize="11136" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="19840" ySize="11136" />
+      <DstRect xOff="268189" yOff="184776" xSize="19840" ySize="11136" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_170_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="13696" RasterYSize="33984" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="13696" ySize="33984" />
+      <DstRect xOff="1260507" yOff="222380" xSize="13696" ySize="33984" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-50_lon_160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="12736" RasterYSize="16704" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="12736" ySize="16704" />
+      <DstRect xOff="1247276" yOff="413055" xSize="12736" ySize="16704" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_20_lon_150_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="64" RasterYSize="64" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="64" ySize="64" />
+      <DstRect xOff="1202295" yOff="169317" xSize="64" ySize="64" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-40_lon_20_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="17408" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="17408" />
+      <DstRect xOff="719985" yOff="364783" xSize="36032" ySize="17408" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_20_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16320" RasterYSize="8064" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="16320" ySize="8064" />
+      <DstRect xOff="72767" yOff="176741" xSize="16320" ySize="8064" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-40_lon_-80_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14208" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14208" ySize="36032" />
+      <DstRect xOff="381796" yOff="364775" xSize="14208" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_50_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="6400" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="6400" />
+      <DstRect xOff="827971" yOff="70412" xSize="36032" ySize="6400" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_-50_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35520" RasterYSize="35072" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35520" ySize="35072" />
+      <DstRect xOff="467974" yOff="328779" xSize="35520" ySize="35072" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_10_general-v1.5.6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683985" yOff="148774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-130_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14400" RasterYSize="21952" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14400" ySize="21952" />
+      <DstRect xOff="201618" yOff="112784" xSize="14400" ySize="21952" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_80_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8512" RasterYSize="3008" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="8512" ySize="3008" />
+      <DstRect xOff="935997" yOff="145791" xSize="8512" ySize="3008" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_60_lon_-10_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25088" RasterYSize="8640" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25088" ySize="8640" />
+      <DstRect xOff="620321" yOff="32179" xSize="25088" ySize="8640" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_110_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="128" RasterYSize="192" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="128" ySize="192" />
+      <DstRect xOff="1079873" yOff="292760" xSize="128" ySize="192" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-80_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21440" RasterYSize="26496" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="21440" ySize="26496" />
+      <DstRect xOff="359975" yOff="112783" xSize="21440" ySize="26496" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_-110_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="32448" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="32448" />
+      <DstRect xOff="251985" yOff="80366" xSize="36032" ySize="32448" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_90_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="26624" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="26624" />
+      <DstRect xOff="971987" yOff="76783" xSize="36032" ySize="26624" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-100_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="287985" yOff="112774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_50_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="19136" RasterYSize="20992" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="19136" ySize="20992" />
+      <DstRect xOff="831540" yOff="270162" xSize="19136" ySize="20992" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_110_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="1043985" yOff="220775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-40_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="704" RasterYSize="1216" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="704" ySize="1216" />
+      <DstRect xOff="535422" yOff="113824" xSize="704" ySize="1216" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_0_general-v1.5.7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="647985" yOff="220775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_10_lon_-120_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="13760" RasterYSize="1600" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="13760" ySize="1600" />
+      <DstRect xOff="234922" yOff="189164" xSize="13760" ySize="1600" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_20_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719985" yOff="328775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_20_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="35648" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="35648" />
+      <DstRect xOff="719985" yOff="185154" xSize="36032" ySize="35648" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_50_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25856" RasterYSize="10688" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25856" ySize="10688" />
+      <DstRect xOff="838147" yOff="112786" xSize="25856" ySize="10688" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_-80_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="359985" yOff="256775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_90_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="6592" RasterYSize="10048" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="6592" ySize="10048" />
+      <DstRect xOff="1001440" yOff="256767" xSize="6592" ySize="10048" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-30_lon_160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="22016" RasterYSize="9664" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="22016" ySize="9664" />
+      <DstRect xOff="1237634" yOff="328813" xSize="22016" ySize="9664" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-30_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="13760" RasterYSize="7808" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="13760" ySize="7808" />
+      <DstRect xOff="544208" yOff="116043" xSize="13760" ySize="7808" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_-30_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9664" RasterYSize="8640" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="9664" ySize="8640" />
+      <DstRect xOff="556723" yOff="194830" xSize="9664" ySize="8640" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_120_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="19456" RasterYSize="28032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="19456" ySize="28032" />
+      <DstRect xOff="1096577" yOff="117809" xSize="19456" ySize="28032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_120_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16512" RasterYSize="3584" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="16512" ySize="3584" />
+      <DstRect xOff="1079977" yOff="292774" xSize="16512" ySize="3584" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_-80_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="359985" yOff="220775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_120_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35712" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35712" ySize="36032" />
+      <DstRect xOff="1079992" yOff="220775" xSize="35712" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_70_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="899985" yOff="148775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_20_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719985" yOff="112775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_60_lon_-30_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="16320" RasterYSize="11072" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="16320" ySize="11072" />
+      <DstRect xOff="559685" yOff="17492" xSize="16320" ySize="11072" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_30_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="755985" yOff="112775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_60_lon_10_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683986" yOff="4786" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_-80_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29504" RasterYSize="35648" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29504" ySize="35648" />
+      <DstRect xOff="366497" yOff="292764" xSize="29504" ySize="35648" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-10_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20480" RasterYSize="21504" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20480" ySize="21504" />
+      <DstRect xOff="86771" yOff="271208" xSize="20480" ySize="21504" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="6848" RasterYSize="2880" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="6848" ySize="2880" />
+      <DstRect xOff="101030" yOff="40766" xSize="6848" ySize="2880" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_50_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="827985" yOff="76777" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_130_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="9216" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="9216" />
+      <DstRect xOff="1115997" yOff="154640" xSize="4800" ySize="9216" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_130_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2368" RasterYSize="9728" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2368" ySize="9728" />
+      <DstRect xOff="1149638" yOff="103082" xSize="2368" ySize="9728" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_50_lon_20_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719985" yOff="40775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-20_lon_60_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="768" RasterYSize="384" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="768" ySize="384" />
+      <DstRect xOff="875861" yOff="327590" xSize="768" ySize="384" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_-80_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="24000" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="24000" />
+      <DstRect xOff="359986" yOff="88793" xSize="36032" ySize="24000" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_80_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="18112" RasterYSize="4416" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="18112" ySize="4416" />
+      <DstRect xOff="935976" yOff="72381" xSize="18112" ySize="4416" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_60_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32384" RasterYSize="31680" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32384" ySize="31680" />
+      <DstRect xOff="867638" yOff="148769" xSize="32384" ySize="31680" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_-50_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2112" RasterYSize="6080" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2112" ySize="6080" />
+      <DstRect xOff="467984" yOff="250721" xSize="2112" ySize="6080" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_100_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34112" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34112" ySize="36032" />
+      <DstRect xOff="1007985" yOff="184775" xSize="34112" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_70_lon_-150_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20608" RasterYSize="1024" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20608" ySize="1024" />
+      <DstRect xOff="109148" yOff="3762" xSize="20608" ySize="1024" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_50_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28160" RasterYSize="12096" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28160" ySize="12096" />
+      <DstRect xOff="828050" yOff="184784" xSize="28160" ySize="12096" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_20_lon_-110_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="251985" yOff="148774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_80_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="22976" RasterYSize="27904" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="22976" ySize="27904" />
+      <DstRect xOff="935994" yOff="184768" xSize="22976" ySize="27904" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_130_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="320" RasterYSize="320" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="320" ySize="320" />
+      <DstRect xOff="1150940" yOff="220447" xSize="320" ySize="320" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-20_lon_170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34368" RasterYSize="25472" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34368" ySize="25472" />
+      <DstRect xOff="1260704" yOff="301702" xSize="34368" ySize="25472" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="25152" RasterYSize="3840" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="25152" ySize="3840" />
+      <DstRect xOff="1269659" yOff="66014" xSize="25152" ySize="3840" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_40_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30464" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30464" ySize="36032" />
+      <DstRect xOff="791970" yOff="112775" xSize="30464" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_60_lon_-140_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3328" RasterYSize="1216" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3328" ySize="1216" />
+      <DstRect xOff="144002" yOff="39591" xSize="3328" ySize="1216" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_170_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20096" RasterYSize="31808" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20096" ySize="31808" />
+      <DstRect xOff="1275258" yOff="258752" xSize="20096" ySize="31808" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_-10_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35840" RasterYSize="35968" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35840" ySize="35968" />
+      <DstRect xOff="612186" yOff="148774" xSize="35840" ySize="35968" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_10_lon_-100_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="22784" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="22784" />
+      <DstRect xOff="287985" yOff="184760" xSize="36032" ySize="22784" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_60_lon_30_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5440" RasterYSize="29312" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="5440" ySize="29312" />
+      <DstRect xOff="755979" yOff="5204" xSize="5440" ySize="29312" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_120_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="1079985" yOff="256775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-20_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14464" RasterYSize="6656" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14464" ySize="6656" />
+      <DstRect xOff="91264" yOff="313747" xSize="14464" ySize="6656" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_60_lon_-170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21760" RasterYSize="13248" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="21760" ySize="13248" />
+      <DstRect xOff="50157" yOff="5701" xSize="21760" ySize="13248" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_0_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15808" RasterYSize="9984" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="15808" ySize="9984" />
+      <DstRect xOff="668214" yOff="256787" xSize="15808" ySize="9984" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_70_lon_30_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4032" RasterYSize="1792" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4032" ySize="1792" />
+      <DstRect xOff="756017" yOff="2776" xSize="4032" ySize="1792" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_120_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="35008" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="35008" />
+      <DstRect xOff="1079985" yOff="148789" xSize="36032" ySize="35008" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_140_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7488" RasterYSize="17920" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="7488" ySize="17920" />
+      <DstRect xOff="1151987" yOff="112776" xSize="7488" ySize="17920" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_-60_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="431985" yOff="328775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_-20_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3584" RasterYSize="2240" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3584" ySize="2240" />
+      <DstRect xOff="585834" yOff="137604" xSize="3584" ySize="2240" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_80_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="28672" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="28672" />
+      <DstRect xOff="935985" yOff="76782" xSize="36032" ySize="28672" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_60_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33216" RasterYSize="35776" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33216" ySize="35776" />
+      <DstRect xOff="74794" yOff="5016" xSize="33216" ySize="35776" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_-80_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="359989" yOff="184775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_-70_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="27904" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="27904" />
+      <DstRect xOff="395985" yOff="228916" xSize="36032" ySize="27904" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_20_general-v1.5.7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719985" yOff="292775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-120_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="215985" yOff="112774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_70_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="19008" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="19008" />
+      <DstRect xOff="899986" yOff="57785" xSize="36032" ySize="19008" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_30_lon_-90_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="323985" yOff="112774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_100_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29056" RasterYSize="12160" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29056" ySize="12160" />
+      <DstRect xOff="1007997" yOff="172642" xSize="29056" ySize="12160" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-20_lon_160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35456" RasterYSize="35072" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35456" ySize="35072" />
+      <DstRect xOff="1224017" yOff="292931" xSize="35456" ySize="35072" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_10_general-v1.5.10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683985" yOff="184779" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-10_lon_-150_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2560" RasterYSize="5376" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2560" ySize="5376" />
+      <DstRect xOff="141417" yOff="285463" xSize="2560" ySize="5376" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_40_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27584" RasterYSize="35136" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27584" ySize="35136" />
+      <DstRect xOff="791977" yOff="256776" xSize="27584" ySize="35136" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_30_general-v1.5.8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="755985" yOff="256775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-50_lon_-180_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3840" RasterYSize="2368" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3840" ySize="2368" />
+      <DstRect xOff="11207" yOff="414117" xSize="3840" ySize="2368" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_-90_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20544" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20544" ySize="36032" />
+      <DstRect xOff="339461" yOff="220775" xSize="20544" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-20_lon_-150_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35392" RasterYSize="20928" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35392" ySize="20928" />
+      <DstRect xOff="108269" yOff="307534" xSize="35392" ySize="20928" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_110_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="1043985" yOff="256775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-10_lon_-140_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2752" RasterYSize="3968" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2752" ySize="3968" />
+      <DstRect xOff="145424" yOff="288752" xSize="2752" ySize="3968" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_50_lon_10_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683985" yOff="40775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_-140_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32576" RasterYSize="15552" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32576" ySize="15552" />
+      <DstRect xOff="147087" yOff="331539" xSize="32576" ySize="15552" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_90_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="26240" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="26240" ySize="36032" />
+      <DstRect xOff="981780" yOff="220775" xSize="26240" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_20_lon_-180_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="64" RasterYSize="64" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="64" ySize="64" />
+      <DstRect xOff="6111" yOff="154542" xSize="64" ySize="64" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_30_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="35072" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="35072" />
+      <DstRect xOff="755986" yOff="148783" xSize="36032" ySize="35072" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_0_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="647985" yOff="76775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_100_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="30272" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="30272" />
+      <DstRect xOff="1007986" yOff="76776" xSize="36032" ySize="30272" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_80_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="6784" RasterYSize="14144" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="6784" ySize="14144" />
+      <DstRect xOff="935985" yOff="221361" xSize="6784" ySize="14144" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_-90_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="323984" yOff="184775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_20_lon_-120_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30016" RasterYSize="25600" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30016" ySize="25600" />
+      <DstRect xOff="222003" yOff="148765" xSize="30016" ySize="25600" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_150_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="30016" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="30016" />
+      <DstRect xOff="1187985" yOff="262799" xSize="36032" ySize="30016" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_150_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35968" RasterYSize="5952" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35968" ySize="5952" />
+      <DstRect xOff="1187993" yOff="292768" xSize="35968" ySize="5952" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_-130_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="64" RasterYSize="64" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="64" ySize="64" />
+      <DstRect xOff="185891" yOff="344516" xSize="64" ySize="64" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_-10_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33536" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33536" ySize="36032" />
+      <DstRect xOff="614496" yOff="76775" xSize="33536" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_-80_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5760" RasterYSize="35840" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="5760" ySize="35840" />
+      <DstRect xOff="390271" yOff="328980" xSize="5760" ySize="35840" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_0_lon_-170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="192" RasterYSize="128" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="192" ySize="128" />
+      <DstRect xOff="70516" yOff="239865" xSize="192" ySize="128" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_110_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4672" RasterYSize="23232" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4672" ySize="23232" />
+      <DstRect xOff="1075360" yOff="197577" xSize="4672" ySize="23232" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_70_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1344" RasterYSize="1536" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1344" ySize="1536" />
+      <DstRect xOff="911062" yOff="257788" xSize="1344" ySize="1536" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_140_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33088" RasterYSize="11136" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33088" ySize="11136" />
+      <DstRect xOff="1153815" yOff="221623" xSize="33088" ySize="11136" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_20_general-v1.5.7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719985" yOff="256775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_140_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="32000" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="32000" />
+      <DstRect xOff="1151985" yOff="260807" xSize="36032" ySize="32000" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_-120_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="32448" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="32448" />
+      <DstRect xOff="215985" yOff="80365" xSize="36032" ySize="32448" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_10_lon_-60_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="832" RasterYSize="1088" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="832" ySize="1088" />
+      <DstRect xOff="433255" yOff="208763" xSize="832" ySize="1088" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_100_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="28416" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="28416" />
+      <DstRect xOff="1007985" yOff="256779" xSize="36032" ySize="28416" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_30_general-v1.5.10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="755985" yOff="220775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_110_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="23296" RasterYSize="20160" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="23296" ySize="20160" />
+      <DstRect xOff="1056706" yOff="162151" xSize="23296" ySize="20160" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_40_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="791985" yOff="76780" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-40_lon_-70_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="395986" yOff="364775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_70_lon_10_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3776" RasterYSize="704" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3776" ySize="704" />
+      <DstRect xOff="716177" yOff="4002" xSize="3776" ySize="704" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_10_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="683985" yOff="76775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_140_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8384" RasterYSize="2176" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="8384" ySize="2176" />
+      <DstRect xOff="1179618" yOff="292775" xSize="8384" ySize="2176" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_40_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20096" RasterYSize="20160" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20096" ySize="20160" />
+      <DstRect xOff="803484" yOff="328776" xSize="20096" ySize="20160" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_0_general-v1.5.10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="647985" yOff="184776" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_140_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3264" RasterYSize="6976" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3264" ySize="6976" />
+      <DstRect xOff="1156579" yOff="160648" xSize="3264" ySize="6976" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_-90_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35904" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35904" ySize="36032" />
+      <DstRect xOff="323992" yOff="148775" xSize="35904" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_20_general-v1.5.8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719985" yOff="220777" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_90_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27008" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27008" ySize="36032" />
+      <DstRect xOff="981005" yOff="184775" xSize="27008" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_70_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28160" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28160" ySize="36032" />
+      <DstRect xOff="907843" yOff="184775" xSize="28160" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_-20_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14464" RasterYSize="15104" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14464" ySize="15104" />
+      <DstRect xOff="597564" yOff="220775" xSize="14464" ySize="15104" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_0_lon_-160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="8064" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="8064" />
+      <DstRect xOff="74180" yOff="242612" xSize="8000" ySize="8064" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_50_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9344" RasterYSize="5056" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="9344" ySize="5056" />
+      <DstRect xOff="846775" yOff="328761" xSize="9344" ySize="5056" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_110_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9472" RasterYSize="832" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="9472" ySize="832" />
+      <DstRect xOff="1057038" yOff="75964" xSize="9472" ySize="832" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_60_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="863985" yOff="76776" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_-10_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="611985" yOff="40774" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-30_lon_-180_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="15232" RasterYSize="33472" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="15232" ySize="33472" />
+      <DstRect xOff="4491" yOff="328818" xSize="15232" ySize="33472" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_70_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="899985" yOff="112775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_40_general-v1.5.6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35584" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35584" ySize="36032" />
+      <DstRect xOff="791973" yOff="184775" xSize="35584" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_20_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719985" yOff="76775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_-20_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2432" RasterYSize="9792" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2432" ySize="9792" />
+      <DstRect xOff="609596" yOff="61285" xSize="2432" ySize="9792" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-50_lon_-80_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20480" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="20480" ySize="36032" />
+      <DstRect xOff="375545" yOff="400775" xSize="20480" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_-40_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="18752" RasterYSize="25792" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="18752" ySize="25792" />
+      <DstRect xOff="503997" yOff="267012" xSize="18752" ySize="25792" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-60_lon_160_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="11968" RasterYSize="7616" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="11968" ySize="7616" />
+      <DstRect xOff="1245389" yOff="438558" xSize="11968" ySize="7616" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_60_lon_20_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="719986" yOff="4776" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_40_lon_-130_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17088" RasterYSize="32448" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="17088" ySize="32448" />
+      <DstRect xOff="198931" yOff="80362" xSize="17088" ySize="32448" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_10_lon_-20_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27136" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27136" ySize="36032" />
+      <DstRect xOff="584881" yOff="184775" xSize="27136" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_0_lon_130_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34560" RasterYSize="35648" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34560" ySize="35648" />
+      <DstRect xOff="1116213" yOff="221110" xSize="34560" ySize="35648" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_20_lon_-20_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29376" RasterYSize="33920" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29376" ySize="33920" />
+      <DstRect xOff="582631" yOff="150887" xSize="29376" ySize="33920" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_-70_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="395985" yOff="292775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_-40_lon_170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="23104" RasterYSize="21056" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="23104" ySize="21056" />
+      <DstRect xOff="1267683" yOff="379741" xSize="23104" ySize="21056" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-20_lon_-40_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14400" RasterYSize="35072" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14400" ySize="35072" />
+      <DstRect xOff="503977" yOff="292774" xSize="14400" ySize="35072" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_-60_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="431985" yOff="256775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_40_lon_30_general-v1.5.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="23360" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="23360" />
+      <DstRect xOff="755985" yOff="89460" xSize="36032" ySize="23360" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-10_lon_-90_general-v1.5.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34688" RasterYSize="25024" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34688" ySize="25024" />
+      <DstRect xOff="325343" yOff="256769" xSize="34688" ySize="25024" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_-40_lon_30_general-v1.5.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3456" RasterYSize="4672" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3456" ySize="4672" />
+      <DstRect xOff="755976" yOff="364788" xSize="3456" ySize="4672" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_0_general-v1.5.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="647985" yOff="112773" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_50_lon_-140_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35328" RasterYSize="19200" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35328" ySize="19200" />
+      <DstRect xOff="144621" yOff="40786" xSize="35328" ySize="19200" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1/cog_globallat_20_lon_-170_general-v1.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="576" RasterYSize="704" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="576" ySize="704" />
+      <DstRect xOff="71137" yOff="177711" xSize="576" ySize="704" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">v1.5/cog_globallat_30_lon_60_general-v1.5.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36032" RasterYSize="36032" DataType="Float64" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="36032" ySize="36032" />
+      <DstRect xOff="863985" yOff="112775" xSize="36032" ySize="36032" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
